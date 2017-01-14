@@ -43,3 +43,16 @@ $(BIN_TARGET):$(OBJ)
 # 统计文件夹下所有文件
 test:
 	@echo $(OBJ)
+
+
+Makefile:36: 目标“Debug/GPIO.o” 5
+Makefile:36: 目标“Debug/Semaphores.o”3
+Makefile:36: 目标“Debug/UARTDriver.o”6
+Makefile:36: 目标“Debug/Storage.o”5
+Makefile:36: 目标“Debug/I2CDriver.o”4
+Makefile:36: 目标“Debug/Scheduler.o”6
+Makefile:36: 目标“Debug/SPIDriver.o”2
+Makefile:36: 目标“Debug/RCOutput.o”3
+Makefile:36: 目标“Debug/AnalogIn.o”5
+Makefile:36: 目标“Debug/RCInput.o”3
+Makefile:36: 目标“Debug/Util.o”3
